@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb16fbf3-8cc1-47b3-8870-4a51e480584a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kul/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kul/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/OperationValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/validation/OperationValidationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/validation/OperationValidatoError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/validation/OperationValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/operations/Add.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/operations/Delete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/operations/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +72,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/pl/kul/operations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HelpTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-1.11.0-openjdk-amd64" />
+      <option name="ALTERNATIVE_JRE_PATH" value="15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="pl.kul.Main" />
       <module name="LS-projektZaliczeniowy2022" />
@@ -141,6 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.AddTest" />
+      <item itemvalue="JUnit.DeleteTest" />
+      <item itemvalue="JUnit.HelpTest" />
+      <item itemvalue="JUnit.ShopTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HelpTest" />
@@ -166,6 +161,7 @@
       <workItem from="1642152036587" duration="6412000" />
       <workItem from="1642168289839" duration="14294000" />
       <workItem from="1642357270108" duration="142000" />
+      <workItem from="1642358093121" duration="662000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1641756363156</created>
