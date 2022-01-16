@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Cart extends Operation{
 
     public Cart(Shop shop) {
-        super("CART", shop, "kostia", new int[]{0});
+        super("CART", shop, " - Tworzy koszyk i dadaje do niego poszczegolne elementy", new int[]{0});
     }
 
     @Override
@@ -65,7 +65,7 @@ public class Cart extends Operation{
             System.out.println("-----------------------");
             System.out.println("Summa----------" + summa + "zl");
         } else {
-            System.out.println("Polecenir nie przejmuje argumentyw.");
+            System.out.println("Polecenie nie przyjmuje argumentow.");
         }
         return null;
     }

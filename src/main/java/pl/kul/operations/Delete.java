@@ -5,18 +5,18 @@ import pl.kul.Shop;
 import static pl.kul.operations.validation.OperationValidatoError.INVALID_ID;
 import static pl.kul.operations.validation.OperationValidatoError.INVALID_VALUE;
 
-//usunonc product
+//Usuniecie produktu
 public class Delete extends Operation{
 
     public Delete(Shop shop) {
-        super("DELETE", shop, "'all' lub [id] - usuwa wszystkie lub wybrany produkt", new int[]{1});
+        super("DELETE", shop, "'all' lub [id] - Usuwa wszystkie lub wybrany produkt", new int[]{1});
     }
 
     @Override
     public String execute(String ... arg) {
         if(arg[0].equals("all")){
             this.getShop().removeAllProducts();
-            return "Zostaly usuniety wszystkie produkty ze sklepu.";
+            return "Zostaly usuniete wszystkie produkty ze sklepu.";
         }
         else {
             if(Operation.isParsableInt(arg[0])){

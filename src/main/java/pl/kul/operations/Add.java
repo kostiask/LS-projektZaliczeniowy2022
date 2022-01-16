@@ -11,7 +11,7 @@ import static pl.kul.operations.validation.OperationValidatoError.INVALID_VALUE;
 public class Add extends Operation{
 
     public Add(Shop shop) {
-        super("ADD", shop, "[nazwa] [cena] - Dodaje nowy produkt. Mozna odrazu przez spacje podac nazwu i cenu produktu. Jesli wprowadzic tylko nazwu polecenia, wyswietlo sie komunikaty postempowania.", new int[]{0,2});
+        super("ADD", shop, "[nazwa] [cena] - Dodaje nowy produkt. Mozna od razu przez spacje podac nazwe i cene produktu. Jesli wprowadzisz tylko nazwe polecenia, wyswietla sie komunikat postepowania.", new int[]{0,2});
     }
 
     @Override

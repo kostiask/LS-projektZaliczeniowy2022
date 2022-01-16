@@ -42,7 +42,7 @@ public class Shop {
 //            System.out.println(args[i]);
 //        }
             if(tab.length == 0){
-                return "Nie prawiedlole polecenie";
+                return "Nie prawidlowe polecenie";
             } else {
                 for(int i = 0; i < operations.size(); i++){
                     if(operations.get(i).getOperation().equals(tab[0])){

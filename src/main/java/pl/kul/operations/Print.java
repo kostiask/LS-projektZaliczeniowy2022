@@ -14,7 +14,7 @@ public class Print extends Operation {
     public String execute(String ... arg) {
         if(arg[0].equals("all")){
             if(this.getShop().howManyProducts() == 0){
-                return "W sklepie nie ma produktuw.";
+                return "W sklepie nie ma produktow.";
             }
             else {
                 String answer = "";
@@ -30,7 +30,7 @@ public class Print extends Operation {
         else {
             if(Operation.isParsableInt(arg[0])){
                 if(this.getShop().productsEmpty()){
-                    return "Produkta o takim id nie istnieje.";
+                    return "Produkt o takim id nie istnieje.";
                 }
                 int id = Integer.parseInt(arg[0]);
                 for(int i = 0; i < this.getShop().howManyProducts(); i++){
@@ -38,7 +38,7 @@ public class Print extends Operation {
                         return this.getShop().getProduct(i).toString();
                     }
                 }
-                //return "Produkta o takim id nie istnieje.";
+                //return "Produkt o takim id nie istnieje.";
                 throw new OperationValidationException(INVALID_ID.getMessage());
             } else {
                 throw new OperationValidationException(INVALID_VALUE_ID.getMessage());

@@ -10,8 +10,8 @@ public abstract class Operation {
     private String description;
     private int[] numberOfArguments;
 
-    public static String INVALID_NUMBER_OF_ARGUMENTS = "Nie poprawna ilosc argumenruw.";
-    public static String INVALID_ARGUMENT = "Argumenty sa nie prawiedlole.";
+    public static String INVALID_NUMBER_OF_ARGUMENTS = "Nie poprawna ilosc argumentow.";
+    public static String INVALID_ARGUMENT = "Argumenty sa nie prawidlowe.";
 
     public Operation(String operacja, Shop shop, String description,int[] numberOfArguments) {
         this.operacja = operacja;

@@ -15,7 +15,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product " + "id=" + id + ", name='" + name + '\'' + ", cena=" + cena + "zl";
+        return "Produkt " + "id=" + id + ", nazwa='" + name + '\'' + ", cena=" + cena + "zl";
     }
 
     public int getId() {

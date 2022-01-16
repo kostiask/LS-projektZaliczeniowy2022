@@ -12,14 +12,14 @@ public class Main {
         ArrayList<Product> products = new ArrayList<>();
         products.add(new Product("mlieko", 1.23));
         products.add(new Product("chleb", 4.12));
-        products.add(new Product("kola", 5.67));
+        products.add(new Product("cola", 5.67));
         products.add(new Product("ryz", 2.50));
         products.add(new Product("herbata", 4.0));
 
         Shop shop = new Shop(products);
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Kassa fiskalna");
+        System.out.println("Kasa fiskalna");
         boolean czy = true;
         String operacja;
         while(czy){

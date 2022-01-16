@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Help extends Operation{
 
     public Help(Shop shop) {
-        super("HELP", shop, "- Wyswitla wszystkie polecenia.", new int[]{0});
+        super("HELP", shop, "- Wyswietla wszystkie polecenia.", new int[]{0});
     }
 
     @Override
