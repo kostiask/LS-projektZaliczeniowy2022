@@ -22,11 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb16fbf3-8cc1-47b3-8870-4a51e480584a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Delete.java" afterDir="false" />
+    <list default="true" id="fb16fbf3-8cc1-47b3-8870-4a51e480584a" name="Changes" comment="PS-5&#10;Dodanie operacji Delete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Cart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/kul/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/kul/Shop.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +216,7 @@
       <workItem from="1642357270108" duration="1192000" />
       <workItem from="1642358093121" duration="662000" />
       <workItem from="1642359167914" duration="252000" />
-      <workItem from="1642359699991" duration="436000" />
+      <workItem from="1642359699991" duration="1042000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1641756363156</created>
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641757480155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PS-5&#10;Dodanie operacji Delete">
+      <created>1642360253920</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642360253920</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +267,8 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="test3" />
-    <option name="LAST_COMMIT_MESSAGE" value="test3" />
+    <MESSAGE value="PS-5&#10;Dodanie operacji Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="PS-5&#10;Dodanie operacji Delete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642359925085">
@@ -272,21 +279,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1642359917472" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1642360060490">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1642360712038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642360060490" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1642360060489">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642360712038" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1642360712038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642360060489" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1642360060489">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642360712038" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1642360712038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642360060489" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1642360060490">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642360712038" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1642360712038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642360060490" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642360712038" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1642360533291">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1642360533291" />
   </component>
 </project>

@@ -21,6 +21,7 @@ public class Shop {
         operations.add(new Add(this));
         operations.add(new Print(this));
         operations.add(new Delete(this));
+        operations.add(new Cart(this));
 
         this.products = products;
         this.operationValidator = new OperationValidator(operations);
