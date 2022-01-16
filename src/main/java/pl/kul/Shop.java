@@ -20,6 +20,7 @@ public class Shop {
         this.operations = new ArrayList<>();
         operations.add(new Add(this));
         operations.add(new Print(this));
+        operations.add(new Delete(this));
 
         this.products = products;
         this.operationValidator = new OperationValidator(operations);
