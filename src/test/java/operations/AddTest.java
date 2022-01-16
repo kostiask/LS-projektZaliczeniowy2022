@@ -53,7 +53,7 @@ public class AddTest {
         String answer = shop.executeOperation(operation);
         //then
         Assertions.assertEquals(shop.howManyProducts(),1);
-        Assertions.assertEquals(answer, "Dodano Product id=0, name='mleko', cena=2.34zl");
+        Assertions.assertEquals(answer, "Dodano Produkt id=0, nazwa='mleko', cena=2.34zl");
     }
 
 }
