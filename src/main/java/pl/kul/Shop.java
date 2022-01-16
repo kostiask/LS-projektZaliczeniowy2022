@@ -19,6 +19,7 @@ public class Shop {
     public Shop(ArrayList<Product> products) {
         this.operations = new ArrayList<>();
         operations.add(new Add(this));
+        operations.add(new Print(this));
 
         this.products = products;
         this.operationValidator = new OperationValidator(operations);
