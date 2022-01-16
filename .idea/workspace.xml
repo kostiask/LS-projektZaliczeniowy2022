@@ -22,15 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb16fbf3-8cc1-47b3-8870-4a51e480584a" name="Changes" comment="PS-8&#10;Edycje">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/operations/AddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/operations/AddTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/operations/DeleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/operations/DeleteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/kul/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/kul/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/kul/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/kul/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/kul/operations/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/kul/operations/Add.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/kul/operations/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/kul/operations/Operation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/kul/operations/validation/OperationValidatoError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/kul/operations/validation/OperationValidatoError.class" afterDir="false" />
+    <list default="true" id="fb16fbf3-8cc1-47b3-8870-4a51e480584a" name="Changes" comment="PS-10&#10;Code review">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Delete.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -258,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642361955319</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="PS-10&#10;Code review">
+      <created>1642363332184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642363332184</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +286,8 @@
     <MESSAGE value="test3" />
     <MESSAGE value="PS-5&#10;Dodanie operacji Delete" />
     <MESSAGE value="PS-8&#10;Edycje" />
-    <option name="LAST_COMMIT_MESSAGE" value="PS-8&#10;Edycje" />
+    <MESSAGE value="PS-10&#10;Code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="PS-10&#10;Code review" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642359925085">
@@ -292,22 +298,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1642359917472" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1642362318837">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1642363333311">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642362318837" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1642362318837">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642363333311" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1642363333310">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642362318837" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1642362318837">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642363333310" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1642363333310">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642362318837" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1642362318837">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642363333310" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1642363333311">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642362318837" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642363333311" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1642361973708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
