@@ -60,7 +60,7 @@ public class DeleteTest {
         //when
         String answer = shop.executeOperation(operation);
         //then
-        Assertions.assertEquals(answer, "Zostaly usuniety wszystkie produkty ze sklepu.");
+        Assertions.assertEquals(answer, "Zostaly usuniete wszystkie produkty ze sklepu.");
         Assertions.assertEquals(0, shop.howManyProducts());
     }
 

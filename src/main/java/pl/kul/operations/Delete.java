@@ -8,6 +8,7 @@ import static pl.kul.operations.validation.OperationValidatoError.INVALID_VALUE;
 //Usuniecie produktu
 public class Delete extends Operation{
 
+
     public Delete(Shop shop) {
         super("DELETE", shop, "'all' lub [id] - Usuwa wszystkie lub wybrany produkt", new int[]{1});
     }
