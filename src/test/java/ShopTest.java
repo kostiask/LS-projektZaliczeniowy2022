@@ -1,5 +1,3 @@
-package operations;
-
 import pl.kul.Product;
 import pl.kul.Shop;
 import org.junit.jupiter.api.Assertions;

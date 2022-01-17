@@ -58,7 +58,7 @@ public class Shop {
                     }
                 }
             }
-            return null;
+            return "";
         }
         catch (RuntimeException e){
             return e.getMessage();

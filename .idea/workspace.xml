@@ -23,17 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb16fbf3-8cc1-47b3-8870-4a51e480584a" name="Changes" comment="PS-6&#10;Dodanie operacji Cart">
+      <change afterPath="$PROJECT_DIR$/src/test/java/operations/PrintTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Help.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kul/operations/validation/OperationValidatoError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kul/operations/validation/OperationValidatoError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/operations/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/kul/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/kul/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/kul/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/kul/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/kul/operations/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/kul/operations/Add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/kul/operations/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/kul/operations/Operation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/kul/operations/validation/OperationValidatoError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/kul/operations/validation/OperationValidatoError.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +91,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/pl/kul/operations" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PrintTest">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -131,58 +132,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrintTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LS-projektZaliczeniowy2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="operations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="operations" />
+      <option name="MAIN_CLASS_NAME" value="operations.PrintTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LS-projektZaliczeniowy2022" />
-      <option name="PACKAGE_NAME" value="operations" />
-      <option name="MAIN_CLASS_NAME" value="operations.ShopTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,9 +173,11 @@
       <item itemvalue="JUnit.DeleteTest" />
       <item itemvalue="JUnit.HelpTest" />
       <item itemvalue="JUnit.ShopTest" />
+      <item itemvalue="JUnit.PrintTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrintTest" />
         <item itemvalue="JUnit.HelpTest" />
         <item itemvalue="JUnit.DeleteTest" />
         <item itemvalue="JUnit.AddTest" />
@@ -203,7 +185,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -225,6 +207,9 @@
       <workItem from="1642358093121" duration="662000" />
       <workItem from="1642359167914" duration="252000" />
       <workItem from="1642359699991" duration="1042000" />
+      <workItem from="1642362562702" duration="1479000" />
+      <workItem from="1642421807096" duration="1643000" />
+      <workItem from="1642424036235" duration="1798000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1641756363156</created>
@@ -258,7 +243,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -277,35 +262,5 @@
     <MESSAGE value="test3" />
     <MESSAGE value="PS-5&#10;Dodanie operacji Delete" />
     <option name="LAST_COMMIT_MESSAGE" value="PS-5&#10;Dodanie operacji Delete" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642359925085">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1642359925085" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1642359917472">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1642359917472" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1642361309789">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642361309789" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1642361309789">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642361309789" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1642361309789">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642361309789" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1642361309789">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642361309789" />
-    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1642360533291">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1642360533291" />
   </component>
 </project>
